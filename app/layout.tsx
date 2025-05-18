@@ -49,39 +49,29 @@ export default function RootLayout({
                 </Link>
               </div>
               <div className="flex items-center space-x-8">
-                <Link href="/" className="text-gray-600 hover:text-gray-900" title="Home">
+                <Link href="/" className="text-gray-600 hover:text-gray-900 flex items-center space-x-2" title="Home">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                   </svg>
+                  <span>Home</span>
                 </Link>
-                <div className="relative group">
-                  <button className="text-gray-600 hover:text-gray-900 flex items-center">
-                    Solutions
-                    <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                    </svg>
-                  </button>
-                  <div className="absolute left-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                    <div className="py-1">
-                      <Link href="/solutions/schul-ai" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Schul.ai</Link>
-                      <Link href="/solutions/acme-platform" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">ACME</Link>
-                      <div className="py-2">
-                        <Link href="/solutions/it-infrastructure" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
-                          IT Services
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <Link href="/about" className="text-gray-600 hover:text-gray-900" title="About Us">
+                <Link href="/solutions" className="text-gray-600 hover:text-gray-900 flex items-center space-x-2" title="Our Solutions">
+                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <span>Solutions</span>
+                </Link>
+                <Link href="/about" className="text-gray-600 hover:text-gray-900 flex items-center space-x-2" title="About Us">
                   <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
+                  <span>About</span>
                 </Link>
-                <Link href="/contact" className="text-gray-600 hover:text-gray-900" title="Contact Us">
+                <Link href="/contact" className="text-gray-600 hover:text-gray-900 flex items-center space-x-2" title="Contact Us">
                   <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
                   </svg>
+                  <span>Contact</span>
                 </Link>
               </div>
             </div>
