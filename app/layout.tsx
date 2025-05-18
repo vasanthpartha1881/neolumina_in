@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   description: "Innovative technology solutions for your business needs",
   icons: {
     icon: [
-      { url: '/nts.png', type: 'image/png' },
+      { url: '/neolumina_in/nts.png', type: 'image/png' },
     ],
   },
 };
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${plusJakarta.variable} ${spaceGrotesk.variable}`}>
       <head>
-        <link rel="icon" href="/nts.png" type="image/png" />
+        <link rel="icon" href="/neolumina_in/nts.png" type="image/png" />
       </head>
       <body className="font-space-grotesk antialiased">
         <nav className="bg-white shadow-sm">
@@ -44,8 +44,8 @@ export default function RootLayout({
             <div className="flex justify-between h-16">
               <div className="flex items-center">
                 <Link href="/" className="flex items-center">
-                  <Image src="/nts.png" alt="Neolumina Tech Solutions" width={32} height={32} className="h-8 w-auto" />
-                  <span className="ml-4 text-xl font-semibold text-gray-900 font-plus-jakarta">Neolumina Tech Solutions</span>
+                  <Image src="/neolumina_in/nts.png" alt="Neolumina Tech Solutions" width={32} height={32} className="h-8 w-auto" />
+                  <span className="ml-2 text-xl font-bold text-gray-900">Neolumina</span>
                 </Link>
               </div>
               <div className="flex items-center space-x-8">

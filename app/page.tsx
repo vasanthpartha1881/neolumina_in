@@ -5,7 +5,7 @@ export default function Home() {
     <div className="bg-white">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/neolumina_in/grid.svg')] opacity-10"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
@@ -37,7 +37,7 @@ export default function Home() {
             <a href="/solutions/schul-ai" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
-                  <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto mr-3" />
+                  <Image src="/neolumina_in/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto mr-3" />
                   <span className="text-2xl font-bold text-[#7e2cfd]">Schul.ai</span>
                 </div>
               </div>
