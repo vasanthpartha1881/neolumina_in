@@ -22,7 +22,7 @@ export default function Contact() {
       await new Promise(resolve => setTimeout(resolve, 1000));
       setIsSuccess(true);
       setFormData({ name: '', email: '', message: '' });
-    } catch (err) {
+    } catch (error) {
       setError('Failed to send message. Please try again.');
     } finally {
       setIsLoading(false);
@@ -64,7 +64,7 @@ export default function Contact() {
                   </svg>
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Message Sent!</h3>
-                <p className="text-gray-700">Thank you for contacting us. We'll get back to you soon.</p>
+                <p className="text-gray-700">Thank you for contacting us. We&apos;ll get back to you soon.</p>
                 <button
                   onClick={() => setIsSuccess(false)}
                   className="mt-6 px-6 py-3 bg-gradient-to-r from-[#7e2cfd] to-[#26bdf2] text-white rounded-lg hover:opacity-90 transition-opacity"

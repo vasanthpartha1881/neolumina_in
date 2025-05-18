@@ -37,7 +37,7 @@ export default function Home() {
             <a href="/solutions/schul-ai" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
-                  <img src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" className="h-12 w-auto mr-3" />
+                  <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto mr-3" />
                   <span className="text-2xl font-bold text-[#7e2cfd]">Schul.ai</span>
                 </div>
               </div>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function About() {
   const founders = [
     {
@@ -57,15 +59,17 @@ export default function About() {
       </section>
 
       {/* Founders Grid */}
-      <section className="py-16 bg-white">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {founders.map((founder, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div className="aspect-w-1 aspect-h-1">
-                  <img
+                  <Image
                     src={founder.image}
                     alt={founder.name}
+                    width={400}
+                    height={400}
                     className="w-full h-64 object-cover"
                   />
                 </div>
@@ -86,7 +90,7 @@ export default function About() {
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              At Neolumina Tech Solutions, we're committed to pushing the boundaries of what's possible in technology. 
+              At Neolumina Tech Solutions, we&apos;re committed to pushing the boundaries of what&apos;s possible in technology. 
               Our diverse team of experts brings together decades of experience in AI, cloud computing, and digital transformation 
               to create solutions that drive real business value. We believe in the power of innovation to transform industries 
               and improve lives.
