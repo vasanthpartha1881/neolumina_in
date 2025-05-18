@@ -22,7 +22,7 @@ export default function Contact() {
       await new Promise(resolve => setTimeout(resolve, 1000));
       setIsSuccess(true);
       setFormData({ name: '', email: '', message: '' });
-    } catch (error) {
+    } catch (err) {
       setError('Failed to send message. Please try again.');
     } finally {
       setIsLoading(false);
@@ -38,7 +38,7 @@ export default function Contact() {
     <div className="bg-white min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
-        <div className="absolute inset-0 bg-[url('/grid.svg')] opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/neolumina_in/grid.svg')] opacity-10"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
