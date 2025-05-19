@@ -1,41 +1,23 @@
 export default function About() {
   const founders = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Chief Executive Officer",
+      name: "Vasanth Parthasarathy",
+      role: "Director & Founder",
       bio: "Former AI researcher at MIT with 15+ years of experience in machine learning and business transformation. Led multiple successful tech startups before founding Neolumina.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+      image: "vasanth.jpg"
     },
     {
-      name: "Michael Rodriguez",
-      role: "Chief Technology Officer",
+      name: "Sudharshan Aravamudan",
+      role: "Director & Founder",
       bio: "Cloud architecture expert with a background in distributed systems. Previously led engineering teams at major tech companies, specializing in scalable infrastructure solutions.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop"
+      image: "sudarshan.jpg"
     },
     {
-      name: "Dr. Priya Patel",
-      role: "Chief Innovation Officer",
+      name: "Ravishankar Jayaraman",
+      role: "Director & Founder",
       bio: "PhD in Computer Science with expertise in quantum computing and AI. Published author and speaker on emerging technologies and their business applications.",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+      image: "ravishankar.jpg"
     },
-    {
-      name: "James Wilson",
-      role: "Chief Operations Officer",
-      bio: "Operations specialist with 20+ years of experience in tech industry logistics and process optimization. Expert in implementing efficient business systems.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop"
-    },
-    {
-      name: "Dr. Marcus Johnson",
-      role: "Chief Research Officer",
-      bio: "Leading researcher in artificial intelligence and machine learning. Holds multiple patents in AI applications and has published numerous papers in top-tier journals.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop"
-    },
-    {
-      name: "Lisa Zhang",
-      role: "Chief Strategy Officer",
-      bio: "Strategic planning expert with a background in both technology and business consulting. Specializes in digital transformation and market strategy.",
-      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop"
-    }
   ];
 
   return (
@@ -66,7 +48,7 @@ export default function About() {
                   <img
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-64 object-contain"
                   />
                 </div>
                 <div className="p-6">
