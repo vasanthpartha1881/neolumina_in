@@ -5,19 +5,19 @@ export default function About() {
   const founders = [
     {
       name: "Vasanth Parthasarathy",
-      role: "Director & Founder",
+      role: "Founder & Chief Executive Officer",
       bio: "With over 20 years of experience in tech innovation, Vasanth leads Neolumina's vision and strategic direction.",
       image: "/vasanth.jpg"
     },
     {
       name: "Sudharshan Aravamudan",
-      role: "Director & Founder",
+      role: "Founder & Chief Business Officer",
       bio: "With his strategic financial planning, Sudarshan helps maintain our strong market position and growth.",
       image: "/sudarshan.jpg"
     },
     {
       name: "Ravishankar Jayaraman",
-      role: "Director & Founder",
+      role: "Founder & Chief Operations Officer",
       bio: "A pioneer in AI and machine learning, Ravi drives our technological advancement and innovation initiatives.",
       image: "/ravishankar.jpg"
     },
@@ -33,11 +33,27 @@ export default function About() {
               About Us
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
-              Meet the visionaries behind Neolumina Tech Solutions
+              AI-powered. Human-led.
+              <br />
+              Building intelligent, human-centered platforms for the real world.
             </p>
           </div>
         </div>
       </HeroBanner>
+
+      {/* Company Description */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="prose prose-lg max-w-none">
+            <p className="text-gray-700 mb-6">
+              Neolumina Tech Solutions (NTS) is a deep-tech company founded by three seasoned industry leaders, backed by hands-on leadership across technology strategy, operational scale-up, and product innovation. We specialize in building cloud-native platforms that amplify capabilities with AI, while preserving human oversight—ensuring intelligence serves decision-makers, not replaces them. Our leadership has built and scaled products across diverse domains such as education, media, logistics, manufacturing, supply chain, State and Federal enterprise tech, and digital commerce with deep exposure to global markets and operational realities.
+            </p>
+            <p className="text-gray-700">
+              At NTS, we create technology with purpose—enhancing human performance, maintaining control, and delivering measurable impact across the industries we serve. Whether empowering educators, optimizing supply chains, or enabling digital-first manufacturing, our platforms combine intelligent automation with human oversight to solve complex, real-world challenges.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Founders Grid */}
       <section className="py-16 bg-white">
