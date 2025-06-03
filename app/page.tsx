@@ -25,7 +25,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
-              <h2 className="text-2xl font-bold text-white bg-[#1f1a97]/20 inline-block px-6 py-3 rounded-lg mb-6">Where Ideas Take Shape; Light Finds Form</h2>
+              <h2 className="text-2xl font-bold text-white bg-[#1f1a97]/50 inline-block px-6 py-3 rounded-lg mb-6">Where Ideas Take Shape; Light Finds Form</h2>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto md:mx-0 text-center md:text-left mb-6">
                 At Neolumina, we see technology not just as code and systems, but as light—cast forward to reveal new possibilities. We are seekers, builders, and thinkers, driven by a belief that synthetic intelligence, when designed with care, can elevate human potential. In a world racing toward automation, we pause to ask: What should we build? Who is it for? How does it serve?
               </p>
