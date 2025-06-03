@@ -59,9 +59,11 @@ export default function About() {
       </section>
 
       {/* Section Separator */}
-      <section className="py-8 bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2]">
+      <section className="py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-white text-center">Meet Our Executive Leadership</h2>
+          <div className="inline-block bg-[#7e2cfd] px-8 py-4 rounded-lg">
+            <h2 className="text-3xl font-bold text-white">Meet Our Executive Leadership</h2>
+          </div>
         </div>
       </section>
 
