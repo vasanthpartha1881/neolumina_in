@@ -48,14 +48,20 @@ export default function About() {
             <p className="text-gray-700 mb-6">
               Neolumina Tech Solutions (NTS) is a deep-tech startup founded by seasoned industry leaders, backed by hands-on leadership across technology strategy, operational scale-up, and product innovation. We specialize in building cloud-native platforms that amplify capabilities with AI, while preserving human oversight; ensuring synthetic intelligence serves humans, does not replace them. Our leadership has built and scaled products across diverse domains such as education, media, logistics, manufacturing, supply chain, insurance, State and Federal enterprise tech, and digital commerce with deep exposure to global markets and operational realities.
             </p>
-			<p className="text-gray-700 mb-6">
-			Our leadership has delivered scalable, high-impact solutions across education, media, logistics, manufacturing, supply chain, public-sector enterprise tech, and digital commerce—grounded in real-world execution and global market experience.
-			</p>
-
+            <p className="text-gray-700 mb-6">
+              Our leadership has delivered scalable, high-impact solutions across education, media, logistics, manufacturing, supply chain, public-sector enterprise tech, and digital commerce—grounded in real-world execution and global market experience.
+            </p>
             <p className="text-gray-700">
               At NTS, we create technology with purpose—enhancing human performance, maintaining control, and delivering measurable impact across the industries we serve. Whether empowering educators, optimizing supply chains, or enabling digital-first manufacturing, our platforms combine intelligent automation with human oversight to solve complex, real-world challenges.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Section Separator */}
+      <section className="py-8 bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-bold text-white text-center">Meet Our Executive Leadership</h2>
         </div>
       </section>
 
@@ -91,10 +97,7 @@ export default function About() {
           <div className="text-center">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
             <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              At Neolumina Tech Solutions, we&apos;re committed to pushing the boundaries of what&apos;s possible in technology. 
-              Our diverse team of experts brings together decades of experience in AI, cloud computing, and digital transformation 
-              to create solutions that drive real business value. We believe in the power of innovation to transform industries 
-              and improve lives.
+              
             </p>
           </div>
         </div>
