@@ -73,7 +73,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {founders.map((founder, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative w-full h-64 bg-[#26bdf2]/20">
+                <div className="relative w-full h-64 bg-white">
                   <Image
                     src={founder.image}
                     alt={founder.name}
@@ -82,7 +82,7 @@ export default function About() {
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 </div>
-                <div className="p-6">
+                <div className="p-6 bg-[#26bdf2]/10">
                   <h3 className="text-xl font-semibold text-gray-900 mb-1">{founder.name}</h3>
                   <p className="text-[#7e2cfd] font-medium mb-4">{founder.role}</p>
                   <p className="text-gray-600">{founder.bio}</p>
