@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <Image
-                src="/neo-home.jpeg"
+                src="/Home_Banner.png"
                 alt="AI-powered solutions illustration"
                 width={500}
                 height={350}
