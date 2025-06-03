@@ -25,8 +25,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="md:w-1/2">
+              <h2 className="text-3xl font-bold text-[#26bdf2] mb-6">Where Ideas Take Shape, and Light Finds Form</h2>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto md:mx-0 text-center md:text-left mb-6">
-                At Neolumina, we see technology not just as code and systems, but as light—cast forward to reveal new possibilities. We are seekers, builders, and thinkers, driven by a belief that intelligence, when designed with care, can elevate human potential. In a world racing toward automation, we pause to ask: What should we build? Who is it for? How does it serve?
+                At Neolumina, we see technology not just as code and systems, but as light—cast forward to reveal new possibilities. We are seekers, builders, and thinkers, driven by a belief that synthetic intelligence, when designed with care, can elevate human potential. In a world racing toward automation, we pause to ask: What should we build? Who is it for? How does it serve?
               </p>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto md:mx-0 text-center md:text-left">
                 Our expertise spans artificial intelligence, cloud architecture, and digital transformation—not as ends in themselves, but as instruments of meaningful change. We design with purpose, led not by hype but by human insight and technical depth. This is our craft: to bring clarity to complexity, and to use technology not to overshadow people—but to empower them.
