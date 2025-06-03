@@ -13,7 +13,7 @@ export default function Home() {
                 Neolumina Tech Solutions
               </h1>
               <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
-                Illuminating the future through innovative technology solutions
+                Illuminating Tomorrow - Empowered by AI
               </p>
             </div>
           </div>
