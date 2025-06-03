@@ -4,13 +4,13 @@ export default function ACMEPlatform() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
+      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
               ACME
             </h1>
-            <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg text-white/90 max-w-3xl mx-auto">
               Streamlining Manufacturing with Intelligent Automation
             </p>
           </div>

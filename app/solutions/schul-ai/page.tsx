@@ -6,16 +6,16 @@ export default function SchulAI() {
     <div className="bg-white">
       {/* Hero Section */}
       <a href="https://schul.ai" target="_blank" rel="noopener noreferrer" className="block hover:opacity-95 transition-opacity duration-200">
-        <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
+        <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-10">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div className="text-center">
-              <div className="flex justify-center mb-6">
-                <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={96} height={96} className="h-24 w-auto" />
+              <div className="flex justify-center mb-3">
+                <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto" />
               </div>
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
                 Schul.ai
               </h1>
-              <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
+              <p className="text-base sm:text-lg text-white/90 max-w-3xl mx-auto">
                 Revolutionizing Education Through AI-Powered Educator Support
               </p>
             </div>
@@ -92,7 +92,7 @@ export default function SchulAI() {
                     <span className="mr-2">📊</span> Data-Driven School Insights
                   </h4>
                   <p className="text-gray-700">
-                    The platform offers analytics for school operations, covering teaching activity, engagement, and development metrics. Role-based access gives different users relevant data views. Data handling is aligned with FERPA and GDPR requirements.
+                    The platform offers analytics for school operations, covering teaching activity, engagement, and development metrics. Role-based access gives different users relevant data views.
                   </p>
                 </div>
                 <div>

@@ -4,13 +4,13 @@ export default function Solutions() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
+      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-3">
               Our Solutions
             </h1>
-            <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl mx-auto">
               Innovative technology solutions for your business needs
             </p>
           </div>
@@ -18,9 +18,9 @@ export default function Solutions() {
       </HeroBanner>
 
       {/* Solutions Grid */}
-      <section className="py-16 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {/* Solution 1 */}
             <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="w-12 h-12 rounded-lg bg-gradient-to-br from-[#7e2cfd] to-[#26bdf2] flex items-center justify-center mb-4">
@@ -34,22 +34,22 @@ export default function Solutions() {
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#7e2cfd] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#7e2cfd] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Personalized Learning Paths
+                  <span>Personalized Learning Paths</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#7e2cfd] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#7e2cfd] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  AI-Driven Analytics
+                  <span>AI-Driven Analytics</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#7e2cfd] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#7e2cfd] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Interactive Content
+                  <span>Interactive Content</span>
                 </li>
               </ul>
             </div>
@@ -67,22 +67,22 @@ export default function Solutions() {
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#596cf9] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#596cf9] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Process Automation
+                  <span>Process Automation</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#596cf9] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#596cf9] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Real-time Analytics
+                  <span>Real-time Analytics</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#596cf9] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#596cf9] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Quality Control
+                  <span>Quality Control</span>
                 </li>
               </ul>
             </div>
@@ -100,22 +100,22 @@ export default function Solutions() {
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#6555fb] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#6555fb] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Cloud Solutions
+                  <span>Cloud Solutions</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#6555fb] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#6555fb] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Network Security
+                  <span>Network Security</span>
                 </li>
                 <li className="flex items-center">
-                  <svg className="w-5 h-5 text-[#6555fb] mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-5 h-5 text-[#6555fb] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Data Management
+                  <span>Data Management</span>
                 </li>
               </ul>
             </div>
