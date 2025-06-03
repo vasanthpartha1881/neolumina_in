@@ -37,9 +37,9 @@ export default function Home() {
               <Image
                 src="/Home_Banner.png"
                 alt="AI-powered solutions illustration"
-                width={500}
-                height={350}
-                className="rounded-xl shadow-lg object-contain max-h-[350px] w-auto"
+                width={600}
+                height={450}
+                className="rounded-xl shadow-lg object-contain max-h-[450px] w-auto"
                 priority
               />
             </div>
