@@ -26,10 +26,10 @@ export default function About() {
   return (
     <div className="bg-white">
       {/* Hero Section */}
-      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-20">
+      <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] via-[#6555fb] to-[#26bdf2] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">
               About Us
             </h1>
             <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto">
@@ -42,7 +42,7 @@ export default function About() {
       </HeroBanner>
 
       {/* Company Description */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 mb-6">
@@ -59,7 +59,7 @@ export default function About() {
       </section>
 
       {/* Section Separator */}
-      <section className="py-8">
+      <section className="py-6">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block bg-[#7e2cfd] px-8 py-4 rounded-lg">
             <h2 className="text-3xl font-bold text-white">Meet Our Executive Leadership</h2>
@@ -68,7 +68,7 @@ export default function About() {
       </section>
 
       {/* Founders Grid */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {founders.map((founder, index) => (
@@ -89,18 +89,6 @@ export default function About() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Mission Statement */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Mission</h2>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              
-            </p>
           </div>
         </div>
       </section>
