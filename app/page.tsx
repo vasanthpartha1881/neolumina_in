@@ -27,10 +27,10 @@ export default function Home() {
             <div className="md:w-1/2">
               <h2 className="text-xl font-bold text-white bg-[#1f1a97]/75 inline-block px-6 py-3 rounded-lg mb-6">Human-centered AI that turns intention into impact.</h2>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto md:mx-0 text-center md:text-left mb-6">
-                At Neolumina, we see technology not just as code and systems, but as light—cast forward to reveal new possibilities. We are seekers, builders, and thinkers, driven by a belief that synthetic intelligence, when designed with care, can elevate human potential. In a world racing toward automation, we pause to ask: What should we build? Who is it for? How does it serve?
+                At Neolumina, we see technology not just as code and systems, but as light - cast forward to reveal new possibilities. We are seekers, builders, and thinkers, driven by a belief that synthetic intelligence, when designed with care, can elevate human potential. In a world racing toward automation, we pause to ask: What should we build? Who is it for? How does it serve?
               </p>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto md:mx-0 text-center md:text-left">
-                Our expertise spans artificial intelligence, cloud architecture, and digital transformation—not as ends in themselves, but as instruments of meaningful change. We design with purpose, led not by hype but by human insight and technical depth. This is our craft: to bring clarity to complexity, and to use technology not to overshadow people—but to empower them.
+                Our expertise spans artificial intelligence, cloud architecture, and digital transformation - not as ends in themselves, but as instruments of meaningful evolution and progress. We design with purpose, led not by hype but by human insight and technical depth. This is our craft: to bring clarity to complexity, and to use technology to empower people instead of overshadowing them.
               </p>
             </div>
             <div className="md:w-1/2 flex justify-center">
