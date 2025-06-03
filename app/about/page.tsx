@@ -60,7 +60,7 @@ export default function About() {
 
       {/* Section Separator */}
       <section className="py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-block bg-[#7e2cfd] px-8 py-4 rounded-lg">
             <h2 className="text-3xl font-bold text-white">Meet Our Executive Leadership</h2>
           </div>
@@ -73,7 +73,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {founders.map((founder, index) => (
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                <div className="relative w-full h-64">
+                <div className="relative w-full h-64 bg-[#26bdf2]/20">
                   <Image
                     src={founder.image}
                     alt={founder.name}
