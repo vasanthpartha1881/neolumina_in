@@ -46,8 +46,12 @@ export default function About() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-700 mb-6">
-              Neolumina Tech Solutions (NTS) is a deep-tech company founded by three seasoned industry leaders, backed by hands-on leadership across technology strategy, operational scale-up, and product innovation. We specialize in building cloud-native platforms that amplify capabilities with AI, while preserving human oversight—ensuring intelligence serves decision-makers, not replaces them. Our leadership has built and scaled products across diverse domains such as education, media, logistics, manufacturing, supply chain, State and Federal enterprise tech, and digital commerce with deep exposure to global markets and operational realities.
+              Neolumina Tech Solutions (NTS) is a deep-tech startup founded by seasoned industry leaders, backed by hands-on leadership across technology strategy, operational scale-up, and product innovation. We specialize in building cloud-native platforms that amplify capabilities with AI, while preserving human oversight; ensuring synthetic intelligence serves humans, does not replace them. Our leadership has built and scaled products across diverse domains such as education, media, logistics, manufacturing, supply chain, insurance, State and Federal enterprise tech, and digital commerce with deep exposure to global markets and operational realities.
             </p>
+			<p className="text-gray-700 mb-6">
+			Our leadership has delivered scalable, high-impact solutions across education, media, logistics, manufacturing, supply chain, public-sector enterprise tech, and digital commerce—grounded in real-world execution and global market experience.
+			</p>
+
             <p className="text-gray-700">
               At NTS, we create technology with purpose—enhancing human performance, maintaining control, and delivering measurable impact across the industries we serve. Whether empowering educators, optimizing supply chains, or enabling digital-first manufacturing, our platforms combine intelligent automation with human oversight to solve complex, real-world challenges.
             </p>
