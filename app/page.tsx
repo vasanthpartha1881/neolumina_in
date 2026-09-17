@@ -36,10 +36,10 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <Image
-                src={assetPath("/neo-home.jpeg")}
-                alt="AI-powered solutions illustration"
+                src={assetPath("/neo-home-v2.png")}
+                alt="Neolumina. Where light finds form. Possibilities become real."
                 width={600}
-                height={450}
+                height={600}
                 className="rounded-xl shadow-lg object-contain max-h-[450px] w-auto"
                 priority
               />
