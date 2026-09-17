@@ -1,3 +1,39 @@
+# Neolumina website
+
+This Next.js site exports static pages to `out/`.
+
+## Publishing
+
+Pushes to `main` run `.github/workflows/deploy.yml`: install the locked dependencies,
+build the site, upload `out/`, then deploy the artifact to GitHub Pages. Repository
+Settings > Pages must use **GitHub Actions**, not a branch-root Jekyll build.
+
+The Pages preview is https://vasanthpartha1881.github.io/neolumina_in/.
+The workflow obtains the base path from Pages metadata before the build.
+`NEXT_PUBLIC_BASE_PATH` configures both Next.js routes and public assets. Leave it
+unset for a root-domain build; use `/neolumina_in` for the current Pages preview.
+Changing it requires rebuilding. `trailingSlash` exports directory indexes so
+direct visits to nested pages work on static hosts.
+
+Local checks (PowerShell):
+
+```powershell
+npm ci
+$env:NEXT_PUBLIC_BASE_PATH = '/neolumina_in'
+npm run build
+```
+
+The `CNAME` file at the repository root is a historical domain hint, not proof
+that `neolumina.in` uses this deployment. Its Cloudflare origin/DNS configuration
+must be checked separately before changing the live domain.
+
+The contact page uses email and phone links. The retained `app/api/contact`
+POST handler requires a server and is not available on static GitHub Pages;
+the current page does not call it. Do not add a submission form relying on it
+without arranging a backend and its credentials.
+
+## Development
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

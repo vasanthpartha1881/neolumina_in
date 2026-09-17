@@ -1,5 +1,8 @@
 'use client';
 
+import { assetPath } from "@/app/lib/asset-path";
+
+
 import Image from 'next/image'; // Import Next Image
 import HeroBanner from "../components/HeroBanner";
 
@@ -27,7 +30,7 @@ export default function Contact() {
           {/* Left Column: Image */}
           <div className="rounded-lg overflow-hidden">
             <Image 
-              src="/contact-us.jpg" 
+              src={assetPath("/contact-us.jpg")}
               alt="Contact Us" 
               width={600} 
               height={700} 

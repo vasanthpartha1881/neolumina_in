@@ -1,3 +1,4 @@
+import { assetPath } from "@/app/lib/asset-path";
 import Image from "next/image";
 import HeroBanner from "./components/HeroBanner";
 
@@ -35,7 +36,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <Image
-                src="/neo-home.jpeg"
+                src={assetPath("/neo-home.jpeg")}
                 alt="AI-powered solutions illustration"
                 width={600}
                 height={450}
@@ -56,7 +57,7 @@ export default function Home() {
             <a href="https://chirongov.com/" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
-                  <Image src="/chiron-mark.svg" alt="Chiron" width={48} height={48} className="h-12 w-auto mr-3" />
+                  <Image src={assetPath("/chiron-mark.svg")} alt="Chiron" width={48} height={48} className="h-12 w-auto mr-3" />
                   <span className="text-2xl font-bold text-[#7e2cfd]">Chiron</span>
                 </div>
               </div>

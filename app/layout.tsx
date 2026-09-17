@@ -1,3 +1,4 @@
+import { assetPath } from "@/app/lib/asset-path";
 import type { Metadata } from "next";
 import { Plus_Jakarta_Sans, Space_Grotesk } from "next/font/google";
 import Link from "next/link";
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
   description: "Innovative technology solutions for your business needs",
   icons: {
     icon: [
-      { url: '/nts.png', type: 'image/png' },
+      { url: assetPath('/nts.png'), type: 'image/png' },
     ],
   },
 };
@@ -38,7 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${plusJakarta.variable} ${spaceGrotesk.variable}`}>
       <head>
-        <link rel="icon" href="/nts.png" type="image/png" />
+        <link rel="icon" href={assetPath("/nts.png")} type="image/png" />
       </head>
       <body className="font-space-grotesk antialiased">
         <MobileMenu />
@@ -47,7 +48,7 @@ export default function RootLayout({
             <div className="flex justify-between h-16">
               <div className="flex items-center">
                 <Link href="/" className="flex items-center">
-                  <Image src="/nts.png" alt="Neolumina Tech Solutions" width={32} height={32} className="h-8 w-auto" />
+                  <Image src={assetPath("/nts.png")} alt="Neolumina Tech Solutions" width={32} height={32} className="h-8 w-auto" />
                   <span className="ml-4 text-xl font-semibold text-gray-900 font-plus-jakarta hidden sm:block">Neolumina Tech Solutions</span>
                 </Link>
               </div>
@@ -130,7 +131,7 @@ export default function RootLayout({
         <HeroBanner className="bg-gradient-to-r from-[#7e2cfd] to-[#26bdf2] text-white pt-6 pb-4 relative">
           {/* Background Image with Overlay */}
           <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-[url('/hero-home-bg.png')] bg-cover bg-center opacity-10"></div>
+            <div style={{ backgroundImage: `url(${assetPath("/hero-home-bg.png")})` }} className="absolute inset-0 bg-cover bg-center opacity-10"></div>
             <div className="absolute inset-0 bg-gradient-to-b from-black/30 to-transparent"></div>
           </div>
           

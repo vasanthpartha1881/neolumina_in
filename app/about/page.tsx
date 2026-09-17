@@ -1,3 +1,4 @@
+import { assetPath } from "@/app/lib/asset-path";
 import Image from 'next/image';
 import HeroBanner from "../components/HeroBanner";
 
@@ -75,7 +76,7 @@ export default function About() {
               <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div className="relative w-full h-64 bg-white">
                   <Image
-                    src={founder.image}
+                    src={assetPath(founder.image)}
                     alt={founder.name}
                     fill
                     className="object-contain"

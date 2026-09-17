@@ -1,3 +1,4 @@
+import { assetPath } from "@/app/lib/asset-path";
 import Image from 'next/image';
 import HeroBanner from "../../components/HeroBanner";
 
@@ -10,7 +11,7 @@ export default function SchulAI() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div className="text-center">
               <div className="flex justify-center mb-3">
-                <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto" />
+                <Image src={assetPath("/SCHUL_LOGO.svg")} alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto" />
               </div>
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-3">
                 Schul.ai
@@ -32,7 +33,7 @@ export default function SchulAI() {
               <a href="https://beta.schul.ai/register" target="_blank" rel="noopener noreferrer" className="block hover:opacity-95 transition-opacity duration-200">
                 <div className="bg-[#7e2cfd]/50 p-6 rounded-lg border border-[#7e2cfd]/30 mb-8 text-center">
                   <div className="text-2xl font-semibold text-white hover:text-white/90 transition-colors duration-200 mb-2">
-                    Don't just watch it happen, help shape it!
+                    Don&apos;t just watch it happen, help shape it!
                   </div>
                   <div className="text-2xl font-semibold text-white hover:text-white/90 transition-colors duration-200">
                     Click here to join our beta!!
@@ -43,26 +44,26 @@ export default function SchulAI() {
                 Schul.ai is a purpose-built AI platform designed to strengthen how schools operate, support their educators, and evolve with their needs. Currently in beta testing, the platform reflects months of collaboration with real-world institutions, extensive research, and an uncompromising focus on practical value.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                What we're building is grounded—not theoretical. Schul.ai helps educators manage, reflect, and grow with tools that are intelligent, context-aware, and aligned with how schools function today. From teacher enablement and administrative workflows to data-informed insights, the system is modular and built for scale.
+                What we&apos;re building is grounded—not theoretical. Schul.ai helps educators manage, reflect, and grow with tools that are intelligent, context-aware, and aligned with how schools function today. From teacher enablement and administrative workflows to data-informed insights, the system is modular and built for scale.
               </p>
               <div className="bg-[#26bdf2]/50 p-6 rounded-lg border border-[#26bdf2]/30 mb-6">
                 <p className="text-lg text-gray-700 italic">
-                  We're deliberate about what we share publicly. Not because there's nothing to show—but because there's something worth protecting. Our approach is iterative, feedback-driven, and rooted in the lived experience of educators and school leaders.
+                  We&apos;re deliberate about what we share publicly. Not because there&apos;s nothing to show—but because there&apos;s something worth protecting. Our approach is iterative, feedback-driven, and rooted in the lived experience of educators and school leaders.
                 </p>
               </div>
               <p className="text-lg text-gray-700 mb-6">
-                Schul.ai is not a concept—it's a working platform in active use by early adopters. What's visible today is just the foundation. New capabilities, including expanded learning tools, are already in development for future releases.
+                Schul.ai is not a concept—it&apos;s a working platform in active use by early adopters. What&apos;s visible today is just the foundation. New capabilities, including expanded learning tools, are already in development for future releases.
               </p>
               <div className="bg-[#6555fb]/50 p-6 rounded-lg border border-[#6555fb]/30 mb-6">
                 <p className="text-lg text-gray-700">
-                  If you represent a forward-thinking institution or simply care about meaningful change in education, we'd love to connect. Schul.ai is quietly redefining what educational support can look like—and we're just getting started.
+                  If you represent a forward-thinking institution or simply care about meaningful change in education, we&apos;d love to connect. Schul.ai is quietly redefining what educational support can look like—and we&apos;re just getting started.
                 </p>
               </div>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
               <h3 className="text-2xl font-bold text-gray-900 bg-[#26bdf2]/50 py-4 px-6 rounded-lg mb-6 text-center flex items-center justify-center">
                 <Image 
-                  src="/key_features.png" 
+                  src={assetPath("/key_features.png")}
                   alt="Key Features Icon" 
                   width={24} 
                   height={24} 

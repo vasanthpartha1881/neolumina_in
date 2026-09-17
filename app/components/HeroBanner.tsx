@@ -1,3 +1,4 @@
+import { assetPath } from "@/app/lib/asset-path";
 import React from "react";
 
 interface HeroBannerProps {
@@ -10,7 +11,7 @@ export default function HeroBanner({ children, className = '' }: HeroBannerProps
     <div className={`w-full relative ${className}`}>
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-[url('/hero-home-bg.png')] bg-cover bg-center opacity-20"></div>
+        <div style={{ backgroundImage: `url(${assetPath("/hero-home-bg.png")})` }} className="absolute inset-0 bg-cover bg-center opacity-20"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 to-transparent"></div>
       </div>
       
