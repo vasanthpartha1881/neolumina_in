@@ -53,16 +53,16 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Solutions</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <a href="/solutions/schul-ai" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+            <a href="https://chirongov.com/" className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col items-center mb-4">
                 <div className="flex items-center justify-center mb-2">
-                  <Image src="/SCHUL_LOGO.svg" alt="Schul.ai Logo" width={48} height={48} className="h-12 w-auto mr-3" />
-                  <span className="text-2xl font-bold text-[#7e2cfd]">Schul.ai</span>
+                  <Image src="/chiron-mark.svg" alt="Chiron" width={48} height={48} className="h-12 w-auto mr-3" />
+                  <span className="text-2xl font-bold text-[#7e2cfd]">Chiron</span>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Education Innovation</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Child Welfare Modernization</h3>
               <p className="text-gray-700">
-                Transforming learning through AI-powered educational platforms and personalized learning experiences.
+                Software shaped around child-welfare agencies, connecting systems and simplifying casework in support of children and families.
               </p>
             </a>
 
