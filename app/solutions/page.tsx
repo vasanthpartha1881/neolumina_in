@@ -63,26 +63,26 @@ export default function Solutions() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">ACME Platform</h3>
               <p className="text-gray-700 mb-4">
-                A comprehensive manufacturing platform that streamlines operations and boosts efficiency.
+                An AI-assisted procurement platform for custom manufacturing, connecting buyers and manufacturers from estimation through delivery and finance.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-[#596cf9] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Process Automation</span>
+                  <span>Feasibility, Estimation and Vendor Quotations</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-[#596cf9] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Real-time Analytics</span>
+                  <span>Order Management and Logistics</span>
                 </li>
                 <li className="flex items-center">
                   <svg className="w-5 h-5 text-[#596cf9] mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  <span>Quality Control</span>
+                  <span>Manufacturer Finance and Buyer Protections</span>
                 </li>
               </ul>
             </div>
@@ -124,4 +124,4 @@ export default function Solutions() {
       </section>
     </div>
   );
-} 
+}

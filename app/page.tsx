@@ -79,9 +79,9 @@ export default function Home() {
                   <span className="text-2xl font-bold text-[#7e2cfd]">ACME</span>
                 </div>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Manufacturing Platform</h3>
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">Manufacturing Procurement</h3>
               <p className="text-gray-700">
-                Streamlining manufacturing processes with our comprehensive digital platform and automation solutions.
+                An AI-assisted platform for custom manufacturing procurement, from estimation and sourcing to delivery and finance.
               </p>
             </a>
 
