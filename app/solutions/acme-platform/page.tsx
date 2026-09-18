@@ -11,7 +11,7 @@ export default function ACMEPlatform() {
               ACME
             </h1>
             <p className="text-base sm:text-lg text-white/90 max-w-3xl mx-auto">
-              Streamlining Manufacturing with Intelligent Automation
+              In development with a manufacturing partner
             </p>
           </div>
         </div>
@@ -22,10 +22,11 @@ export default function ACMEPlatform() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">Manufacturing Excellence</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">Shaped Around Real Manufacturing Needs</h2>
               <p className="text-lg text-gray-700 mb-6">
-                ACME revolutionizes manufacturing operations with its comprehensive suite of digital tools. 
-                From process automation to quality control, our platform helps manufacturers achieve unprecedented efficiency and precision.
+                ACME is a manufacturing software product currently in development with a specific manufacturing partner.
+                We are shaping the product around their operational needs, with a focus on process automation,
+                production visibility and quality management.
               </p>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -49,7 +50,7 @@ export default function ACMEPlatform() {
               </ul>
             </div>
             <div className="bg-gray-50 p-8 rounded-lg">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Key Features</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Planned Capabilities</h3>
               <div className="space-y-6">
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">Process Optimization</h4>
@@ -70,4 +71,4 @@ export default function ACMEPlatform() {
       </section>
     </div>
   );
-} 
+}
