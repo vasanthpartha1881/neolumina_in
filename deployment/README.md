@@ -31,11 +31,19 @@ at 390px without horizontal overflow. A nonexistent route returns HTTP 404.
 
 The owner added both ACM validation CNAMEs in Cloudflare. Public DNS checks against
 Cloudflare and Google resolvers confirm the expected targets. ACM has issued the certificate, and CloudFront has been configured with both
-custom-domain aliases using SNI and `TLSv1.2_2021`. Website address records have not
-been switched. CloudFront reached `Deployed`. Pre-cutover requests for each hostname were routed
-directly to the distribution with curl `--connect-to`; both returned HTTP 200 with
-TLS certificate verification success. The public DNS cutover remains pending.
-Preview verification is not domain-cutover completion.
+custom-domain aliases using SNI and `TLSv1.2_2021`. CloudFront reached `Deployed`.
+Pre-cutover requests for each hostname were routed directly to the distribution with
+curl `--connect-to`; both returned HTTP 200 with TLS certificate verification success.
+
+The owner then exported the Cloudflare zone, replaced the eight old root/www A/AAAA
+records with DNS-only CNAMEs to the distribution, and confirmed completion. Public
+DNS now resolves the root to CloudFront addresses and www to the expected distribution.
+Ordinary HTTPS requests (without routing overrides) to both domains return HTTP 200
+from CloudFront and include the Chiron home tile and updated ACME partner-development
+copy. HTTP redirects to HTTPS on both names. All seven content routes and the updated
+home artwork are reachable on the production domain. The MX record still points to
+`neolumina-in.mail.protection.outlook.com`; no mailbox/send/receive test was performed.
+**Domain cutover verified complete on September 18, 2026.**
 
 ## DNS validation: safe to add before switching the website
 
