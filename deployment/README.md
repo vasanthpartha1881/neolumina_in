@@ -29,8 +29,13 @@ with zero broken images and zero JavaScript page errors. The Chiron home tile po
 to `https://chirongov.com/`; mobile navigation opens, navigates and closes correctly
 at 390px without horizontal overflow. A nonexistent route returns HTTP 404.
 
-Custom-domain certificate status is still `PENDING_VALIDATION`. No Cloudflare or
-GoDaddy records were modified. Preview verification is not domain-cutover completion.
+The owner added both ACM validation CNAMEs in Cloudflare. Public DNS checks against
+Cloudflare and Google resolvers confirm the expected targets. ACM has issued the certificate, and CloudFront has been configured with both
+custom-domain aliases using SNI and `TLSv1.2_2021`. Website address records have not
+been switched. CloudFront reached `Deployed`. Pre-cutover requests for each hostname were routed
+directly to the distribution with curl `--connect-to`; both returned HTTP 200 with
+TLS certificate verification success. The public DNS cutover remains pending.
+Preview verification is not domain-cutover completion.
 
 ## DNS validation: safe to add before switching the website
 
